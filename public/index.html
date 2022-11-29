@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILMFLEX | Bookings and reservations</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div id="nav-div">
+        <h1 class="site-title">FILMFLIX</h1>
+        <button id="logout-btn" class="btn">LOG OUT</button>
+    </div>
+    <div id="to-login-div">
+        <h1 class="site-title">FILMFLIX</h1>
+        <div>
+            <button id="to-login-btn" class="btn">LOGIN</button>
+            <button id="to-signup-btn" class="btn">SIGN UP</button>
+        </div>
+    </div>
+    <div class="movie-list-div">
+        <ul id="movie-list"></ul>
+    </div>
+    <div id="movie-options">
+        <div class="movie-options-bg"></div>
+        <button id="back-btn" class="back-btn btn">BACK</button>
+        <div class="options-layout">
+            <div>
+                <img src="" alt="Image unavailable" srcset="" id="options-image">
+                <div>
+                    <h1 id="options-title"></h1>
+                    <p id="options-pg"></p>
+                </div>
+                <p id="options-desc"></p>
+            </div>
+            <div>
+                <h1>Tickets still available!</h1>
+                <button id="reserve-btn" class="reserve-btn btn">Reserve Ticket</button>
+                <p id="reserve-error"></p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
